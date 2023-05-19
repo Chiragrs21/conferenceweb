@@ -26,7 +26,7 @@ header .logo {
 body {
   min-height: 100vh;
   font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #161919;
+  background-color: #91cece;
 }
 
 .nav,
@@ -116,4 +116,37 @@ body {
 section {
   height: 100vh;
   width: 100%;
+}
+.logo1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo2 {
+  width: 7vw;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.background-img {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .background-img {
+    width: 100vw; /* Smaller width for mobile */
+  }
+  .nav {
+    display: none;
+  }
+  .logo2 {
+    width: 16vw;
+  }
+  h2 {
+    font-size: 17px;
+  }
 }
