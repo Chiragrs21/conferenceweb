@@ -208,13 +208,12 @@ section {
 .card {
   width: 300px;
   min-width: 300px;
-  height: 400px;
+  height: 470px;
   background: #fff;
   border-radius: 30px;
   position: relative;
   z-index: 50;
   margin: 25px;
-  min-height: 356px;
   cursor: pointer;
   transition: all 0.25s ease;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.08);
