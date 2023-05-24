@@ -139,7 +139,7 @@ section {
   align-items: center;
 }
 .image-container {
-  position: relative;
+  position: absolute;
 }
 .image-container::after {
   content: "";
@@ -196,11 +196,11 @@ section {
   color: #222;
   font-family: Roboto, Arial, sans-serif;
   height: 90vmin;
-  left: 28%;
+  left: 32%;
   position: absolute;
   top: 70%;
   transform: translate(-50%, -50%);
-  width: 100vmin;
+  width: 120vmin;
 }
 .animated-title > div {
   height: 50%;
@@ -209,12 +209,12 @@ section {
   width: 100%;
 }
 .animated-title > div div {
-  font-size: 10vmin;
-  padding: 1vmin 0;
+  font-size: 8vmin;
+  padding: 2vmin 1;
   position: absolute;
 }
 .animated-title > div div span {
-  display: block;
+  display: inline-block;
 }
 .animated-title > div.text-top {
   border-bottom: 1vmin solid #000;
